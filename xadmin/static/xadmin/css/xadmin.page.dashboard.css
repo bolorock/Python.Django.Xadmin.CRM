@@ -1,0 +1,61 @@
+
+.dashboard.container-fluid {
+    padding-left: 0px;
+}
+
+.box .table{
+    margin-bottom: 0px;
+}
+
+.box-content.tabs {
+    padding: 5px;
+}
+
+.box-content > form, form.box-form {
+  margin-bottom: 0px;
+}
+.box-form .modal-body{
+  padding: 0px;
+}
+
+/* Quick Form */
+.modal.quick-form .modal-body{
+  padding: 0px;
+  max-height: none;
+}
+.modal.quick-form .modal-body form{
+  margin-bottom: 0px;
+}
+
+/* Quick Buttons
+=================================================================== */
+
+.btn-quick {
+    margin-bottom: -1px;
+    padding: 20px 0px 0px 0px;
+    font-size: 15px;
+    display:block;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.btn-quick i {
+    font-size: 32px;
+}
+
+/* Quick Buttons Small
+=================================================================== */
+
+.btn-quick-small {
+  border-radius: 3px;
+  padding: 15px 0px 0px 0px;
+  font-size: 10px;
+  display:block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-quick-small i {
+    font-size: 20px;
+}

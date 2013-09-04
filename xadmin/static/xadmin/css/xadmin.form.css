@@ -1,0 +1,169 @@
+
+/* CUSTOM FORM FIELDS */
+
+.date-field {
+  max-width: 110px;
+}
+.time-field {
+  max-width: 60px;
+}
+select.selectmultiple {
+  width: 70%;
+  max-width: 350px;
+  height: 120px;
+}
+.url-field {
+    width: 30em;
+}
+
+.textarea-field {
+    width: 94%;
+}
+
+.flatpages-flatpage #id_content {
+    height: 40.2em;
+}
+
+.text-field, .textinput {
+    width: 60%;
+    max-width: 300px;
+}
+
+.int-field {
+    width: 30%;
+    max-width: 100px;
+}
+
+.form-actions.fixed{
+  position:fixed;
+  _position:absolute;
+  bottom:0px;
+  z-index:295;
+  margin-left: -10px;
+  -webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+  right: 10px;
+}
+
+.form-actions.fixed .pull-right{
+  float: none;
+  margin-left: 20px;
+}
+
+select, .select2-container {
+  max-width: 200px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+.form-horizontal .select2-container{
+  margin-bottom: 0px;
+}
+
+/* form css */
+.control-group {
+  margin-bottom: 0px;
+}
+.control-label {
+  padding: 6px 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.controls {
+  padding: 10px 0 0px 15px;
+}
+.value .controls{
+  padding-bottom: 10px;
+}
+
+.form-horizontal .control-group {
+  margin-bottom: 0px;
+}
+.form-horizontal .control-label {
+  padding: 19px 0 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.form-horizontal .controls {
+  padding: 15px 0 15px 20px;
+}
+.form-horizontal .value .control-label {
+  padding: 12px 0;
+}
+.form-horizontal .value .controls {
+  padding: 12px 0 12px 20px;
+}
+.form-horizontal .form-row .value .controls {
+  height: 20px;
+}
+.form-horizontal.short_label .control-label,
+.form-horizontal .short_label .control-label {
+  width: 90px;
+}
+.form-horizontal.short_label .controls,
+.form-horizontal .short_label .controls {
+  margin-left: 100px;
+}
+.asteriskField {
+  color: red;
+}
+.form-row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.form-horizontal .form-row {
+  margin: 0px;
+}
+.form-horizontal .form-row .controls {
+  min-height: 30px;
+}
+.form-horizontal .form-row .control-group{
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.main.form-horizontal .control-label {
+  width: 140px;
+}
+.main.form-horizontal .controls {
+  margin-left: 160px;
+}
+
+@media (max-width: 480px) {
+  .form-horizontal .form-row .control-group{
+    display: block;
+    width: auto;
+    float: none;
+  }  
+  .form-horizontal .form-row.num2 .control-group,
+  .form-horizontal .form-row.num3 .control-group,
+  .main.form-horizontal .control-label{
+    width: auto;
+  }
+  .main.form-horizontal .controls {
+    margin-left: 0px;
+  }
+  .form-horizontal .control-label {
+    padding: 6px 15px !important;
+  }
+  .form-horizontal .controls {
+    padding: 10px 0 10px 15px !important;
+  }
+  .form-horizontal .form-row .controls {
+    height: auto !important;
+  }
+}
+
+/** detail page **/
+img.field_img {
+  max-height: 100px;
+}
+
+/** revision form **/
+.diff_field .control-label {
+  color: #FF8040;
+}
+.diff_field .controls{
+  background-color: #FCF8E3;
+}
